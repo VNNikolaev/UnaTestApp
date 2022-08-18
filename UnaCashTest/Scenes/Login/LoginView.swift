@@ -11,6 +11,7 @@ struct LoginView: View {
                 .frame(size: viewModel.isKeyboardShown ? 100 : 250)
             textFields
             Spacer()
+            buttons
         }
         .padding(.horizontal, .normalGap)
         .background(Color.silver)
